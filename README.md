@@ -27,16 +27,24 @@ The JSON object is written to words.json using UTF-8 encoding, ensuring compatib
 Once the process is complete, a success message is printed to indicate that the output file has been created.
 
    How to Use
+   
 1- Create a text file named kelimeler.txt in the same directory as the script. Add one word per line.
 
 2- Run the script using Python (python script_name.py).
 
 3- After execution, you will find a file named words.json in the same directory. This file will contain the words from the input file structured in JSON format as:
 
+
   {
+  
    "words": [
+   
      "word1",
+     
      "word2",
+     
      "word3"
+     
     ]
+    
   }
